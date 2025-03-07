@@ -21,7 +21,7 @@ class TelaInicial extends Phaser.Scene {
         this.returnKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
 
         // Configuração do texto de boas-vindas
-        var text = { height: 20, padding: 15, content: "Bem-vindo ao Jogo!" }
+        var text = { height: 20, padding: 15, content: "Submarino em apuros!" }
         this.message = this.add.text(
             this.game.config.width / 2,
             this.game.config.height / 2 - text.padding * 2 - text.height,
